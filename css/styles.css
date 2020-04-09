@@ -52,31 +52,40 @@ a:hover {
   background-color: #EAF6F6;
   position: relative;
   padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 .top-cloud {
   position: absolute;
-  right: 300px;
+  right: 250px;
   top: 50px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 
-.profile-icon {
-  width: 25%;
+.mountains {
+  width: 100px;
+  height: 100px;
 }
 
-.code-icon {
+.profile-icon {
+  width: 15%;
+  vertical-align: middle;
+  border-radius: 50%;
+  padding-bottom: 25px;
+}
+
+.graduate-icon {
   width: 25%;
   float: left;
   padding-right: 30px;
 }
 
-.blog-icon {
+.skills-icon {
   width: 25%;
   float: right;
   padding-left: 30px;
@@ -92,7 +101,7 @@ a:hover {
 .bio-text {
   color: #40514E;
   margin: auto;
-  width: 30%;
+  width: 50%;
 }
 
 .middle-container {
@@ -102,6 +111,10 @@ a:hover {
 .bottom-container {
   background-color: #66BFBF;
   padding: 50px 0 20px;;
+}
+
+.signature {
+  width: 15%;
 }
 
 .btn {
